@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['#help',' Created By RyadForGames',' #help'];
+    var setGame = ['#help',' Created By Ryad et Anis',' #help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -154,6 +154,8 @@ ${prefix}يعطيك عقابات قاسية | عقاب
 welcome يتم الترحيب فى روم باسم
 G.setwelcomer <text channel name> لاختيار روم للترحيب
 ${prefix}voiceonline | لتفعيل روم الفويس اونلاين
+
+anis et ryad البوت خاص ب 
 **
    
 `]
@@ -355,6 +357,16 @@ return;
 })
 }
 
+});
+client.on('message', message => {
+     if (message.content === (prefix + "help")) {
+	  message.react("📩")
+     let embed = new Discord.RichEmbed()
+  .setAuthor(message.author.username)
+  .setColor("#8650a7")
+  .addField("Done >" , " تــــم ارســالك في الخــاص")
+  message.channel.sendEmbed(embed);
+    }
 });
 client.on('message', msg => {
  if (msg.content.startsWith(prefix + 'cal')) {
