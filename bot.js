@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['#help',' Created By RyadForGames',' #help'];
+    var setGame = ['#help',' Created By Ryad et Anis',' #help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -90,6 +90,9 @@ ${prefix}** emoji <any things> | لتحويل اي كلمه تقولها الي 
 ${prefix}** inv | لدعوة البوت الى سيرفرك **
 ${prefix}** support | سيرفر الدعم **
 ${prefix}** contact | ارسال اقتراح او لمراسلة صاحب البوت **
+**
+  `
+,`
         ***:key:__** اوامر ادارية **__:crown:***
 **
 ${prefix}** move @user | لسب الشخص الى روومك **
@@ -120,6 +123,8 @@ ${prefix}** delet <name> | مسح الشات او الرووم فويس **
 ${prefix}** make <number> | ينشا لك الوان مع كم الوان تبي **
 ${prefix}** color <number> | لختيار لون **
 ${prefix}** deletecolors <number> | لحذف الالوان **
+**
+   `,`
         ***:musical_note:__** اوامر الموسيقى **__:musical_note:***
 **
 ${prefix}** play | لتشغيل أغنية برآبط أو بأسم **
@@ -130,6 +135,7 @@ ${prefix}** vol | لتغيير درجة الصوت 100 - 0 **
 ${prefix}** stop | لإخرآج البوت من الروم **
 ${prefix}** np | لمعرفة الأغنية المشغلة حآليا **
 ${prefix}** queue | لمعرفة قآئمة التشغيل **
+**
         ***:video_game:__** اوامر العاب **__:game_die:***
  **       
 ${prefix}** rps | حجر ورقة مقص **
@@ -144,12 +150,12 @@ ${prefix}** لو خيروك بطريقة حلوة | لو خيروك **
 ${prefix}لعبة مريم  | مريم
 ${prefix}فوائد ونصائح  | هل تعلم
 ${prefix}يعطيك عقابات قاسية | عقاب
-** =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=. **
-${prefix}setwelcomer <text channel name> لاختيار روم للترحيب
+=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.
+welcome يتم الترحيب فى روم باسم
+G.setwelcomer <text channel name> لاختيار روم للترحيب
 ${prefix}voiceonline | لتفعيل روم الفويس اونلاين
-** =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=. **
-Created Bot By RyadForGames
-** =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=. **
+
+anis et ryad البوت خاص ب 
 **
    
 `]
