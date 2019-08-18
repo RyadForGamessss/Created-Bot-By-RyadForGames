@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['#help',' Created By Ryad et Anis',' #help'];
+    var setGame = ['#help',' Created By RyadForGames',' #help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
