@@ -60,8 +60,8 @@ client.on('ready', function(){
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
     let pages = [`**
-        ***:busts_in_silhouette:__** اوامر عامة **__:loudspeaker:***
-**
+        *** =-=-=-= :earth_africa: Public Commands| اوامر عامة :earth_africa: =-=-=-= ***
+
 ${prefix}** allbots | لعرض جميع البوتات الي بالسيرفر **
 ${prefix}** server | يعرض لك معلومات عن السيرفر **
 ${prefix}** bot | يعرض لك كل معلومات البوت **
@@ -90,11 +90,10 @@ ${prefix}** emoji <any things> | لتحويل اي كلمه تقولها الي 
 ${prefix}** inv | لدعوة البوت الى سيرفرك **
 ${prefix}** support | سيرفر الدعم **
 ${prefix}** contact | ارسال اقتراح او لمراسلة صاحب البوت **
-**
-  `
-,`
+${prefix}voiceonline | لتفعيل روم الفويس اونلاين
+${prefix}setwelcomer <text channel name> | لاختيار روم للترحيب
         ***:key:__** اوامر ادارية **__:crown:***
-**
+
 ${prefix}** move @user | لسب الشخص الى روومك **
 ${prefix}** bc | رسالة جماعية الى كل اعضاء السيرفر **
 ${prefix}** bk | رسالة جماعيه مع **
@@ -123,10 +122,8 @@ ${prefix}** delet <name> | مسح الشات او الرووم فويس **
 ${prefix}** make <number> | ينشا لك الوان مع كم الوان تبي **
 ${prefix}** color <number> | لختيار لون **
 ${prefix}** deletecolors <number> | لحذف الالوان **
-**
-   `,`
         ***:musical_note:__** اوامر الموسيقى **__:musical_note:***
-**
+
 ${prefix}** play | لتشغيل أغنية برآبط أو بأسم **
 ${prefix}** skip | لتجآوز الأغنية الحآلية **
 ${prefix}** pause | إيقآف الأغنية مؤقتا **
@@ -135,9 +132,8 @@ ${prefix}** vol | لتغيير درجة الصوت 100 - 0 **
 ${prefix}** stop | لإخرآج البوت من الروم **
 ${prefix}** np | لمعرفة الأغنية المشغلة حآليا **
 ${prefix}** queue | لمعرفة قآئمة التشغيل **
-**
         ***:video_game:__** اوامر العاب **__:game_die:***
- **       
+
 ${prefix}** rps | حجر ورقة مقص **
 ${prefix}** speed | اسرع كتابة **
 ${prefix}** quas | اسئلة عامة **
@@ -151,11 +147,8 @@ ${prefix}لعبة مريم  | مريم
 ${prefix}فوائد ونصائح  | هل تعلم
 ${prefix}يعطيك عقابات قاسية | عقاب
 =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.
-welcome يتم الترحيب فى روم باسم
-G.setwelcomer <text channel name> لاختيار روم للترحيب
-${prefix}voiceonline | لتفعيل روم الفويس اونلاين
-
-anis et ryad البوت خاص ب 
+Created By RyadForGames
+=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.
 **
    
 `]
