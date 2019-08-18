@@ -60,7 +60,7 @@ client.on('ready', function(){
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
     let pages = [`**
-        *** =-=-=-= :earth_africa: Public Commands| اوامر عامة :earth_africa: =-=-=-= ***
+        ***=-=-=-= :earth_africa: Public Commands| اوامر عامة :earth_africa: =-=-=-=***
 
 ${prefix}** allbots | لعرض جميع البوتات الي بالسيرفر **
 ${prefix}** server | يعرض لك معلومات عن السيرفر **
@@ -92,7 +92,7 @@ ${prefix}** support | سيرفر الدعم **
 ${prefix}** contact | ارسال اقتراح او لمراسلة صاحب البوت **
 ${prefix}voiceonline | لتفعيل روم الفويس اونلاين
 ${prefix}setwelcomer <text channel name> | لاختيار روم للترحيب
-        ***:key:__** اوامر ادارية **__:crown:***
+        ***=-=-=-=* :key:__** اوامر ادارية **__:crown: =-=-=-=****
 
 ${prefix}** move @user | لسب الشخص الى روومك **
 ${prefix}** bc | رسالة جماعية الى كل اعضاء السيرفر **
@@ -122,7 +122,7 @@ ${prefix}** delet <name> | مسح الشات او الرووم فويس **
 ${prefix}** make <number> | ينشا لك الوان مع كم الوان تبي **
 ${prefix}** color <number> | لختيار لون **
 ${prefix}** deletecolors <number> | لحذف الالوان **
-        ***:musical_note:__** اوامر الموسيقى **__:musical_note:***
+        ***=-=-=-= :musical_note:__** اوامر الموسيقى **__:musical_note:=-=-=-= ***
 
 ${prefix}** play | لتشغيل أغنية برآبط أو بأسم **
 ${prefix}** skip | لتجآوز الأغنية الحآلية **
@@ -132,7 +132,7 @@ ${prefix}** vol | لتغيير درجة الصوت 100 - 0 **
 ${prefix}** stop | لإخرآج البوت من الروم **
 ${prefix}** np | لمعرفة الأغنية المشغلة حآليا **
 ${prefix}** queue | لمعرفة قآئمة التشغيل **
-        ***:video_game:__** اوامر العاب **__:game_die:***
+        *** =-=-=-=:video_game:__** اوامر العاب **__:game_die:=-=-=-= ***
 
 ${prefix}** rps | حجر ورقة مقص **
 ${prefix}** speed | اسرع كتابة **
